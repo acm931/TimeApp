@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import App from './App.js';
 
 export default class Menu extends Component {
 
@@ -11,7 +12,7 @@ export default class Menu extends Component {
     this.state = {
       text: (<div>Inicio</div>),
       text_plainText: "Inicio",
-      textcopy4: (<div>Registro</div>),
+      textcopy4: (<div><a href="rnFirebaseAuth\components\signup.js">Registro</a></div>),
       textcopy4_plainText: "Registro",
       textcopy2: (<div>Login</div>),
       textcopy2_plainText: "Login",

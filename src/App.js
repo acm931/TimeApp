@@ -10,6 +10,8 @@ import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
 import DataSheet_team from './DataSheet_team.js';
 
 
+
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -154,6 +156,7 @@ class App extends Component {
           <Route path="/start" render={(props) => {
             return makeElementForScreen('start', props.location.state, true, true);
           }} />
+    
         </Switch>
       </div>
     );
