@@ -1,4 +1,4 @@
-# rnFirebaseAuth(Autenticacio del firebase)
+# rnFirebaseAuth(login i registre a partir de Firebase)
 In this React Native tutorial, we are going to learn how to create Login and User Registration functionalities using Firebase Authentication services.
 
 [React Native Firebase – Login and User Registration Tutorial](https://www.positronx.io/react-native-firebase-login-and-user-registration-tutorial/)
